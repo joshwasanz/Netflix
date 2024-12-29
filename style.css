@@ -101,11 +101,10 @@ body{
     
 }
 
-.useful-links ul,li{
-    list-style-type: none;
+.useful-links ul, .useful-links li{
+    list-style: none;
     margin: 0;
-    padding: 0;
-    padding-bottom: 5px;
+    padding: 0 0 5px 0;
 }
 
 footer{

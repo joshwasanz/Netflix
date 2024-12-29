@@ -21,6 +21,46 @@
     ></script>
     <link rel="stylesheet" href="style.css" />
     <title>Netflix</title>
+    <style>
+      /* Critical CSS */
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+      .btn-lang img {
+        width: 15px;
+        margin-left: 8px;
+      }
+      .header-content {
+        width: 100%;
+      }
+      .header-main {
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .header-copy h1 {
+        font-size: 60px;
+        line-height: 70px;
+        font-weight: 600;
+        max-width: 650px;
+      }
+      .header-copy h3 {
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+      .email-signup {
+        display: flex;
+        gap: 1rem;
+      }
+      .features-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 22px;
+        padding-top: 50px;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -28,11 +68,11 @@
         <nav class="container">
           <div class="row pt-4">
             <div class="col-sm-6 col-6 col-md-8 col-lg-8 left">
-              <img src="images/logo.png" alt="" />
+              <img src="images/logo.png" alt="Netflix Logo" loading="lazy" />
             </div>
             <div class="col-sm-6 col-6 col-md-4 col-lg-4 right">
               <button class="btn btn-light btn-lang">
-                English <img src="images/down-icon.png" alt="" />
+                English <img src="images/down-icon.png" alt="Dropdown Icon" loading="lazy" />
               </button>
               <button class="btn btn-danger">Sign In</button>
             </div>
